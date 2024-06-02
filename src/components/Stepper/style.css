@@ -1,0 +1,18 @@
+.circle {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 2px solid rgb(98, 75, 255);
+  }	
+
+  .h_line {
+    border-bottom: 2px solid rgb(98, 75, 255);
+    width: 50px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.stepCount{
+  margin-top: 1.3rem;
+  margin-left: 1.7rem;
+}

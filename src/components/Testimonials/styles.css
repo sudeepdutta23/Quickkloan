@@ -1,0 +1,167 @@
+@media (min-width: 1200px) {
+    .offset-xl-2 {
+        margin-left: 16.66666667%;
+    }
+}
+
+.mb-10 {
+    margin-bottom: 1.5rem !important;
+}
+
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #151e28;
+    font-family: Inter, "sans-serif";
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.text-white-50 {
+    --bs-text-opacity: 1;
+    color: hsla(0, 0%, 100%, .5) !important;
+}
+
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+.fst-italic {
+    font-style: italic !important;
+}
+
+.fs-4 {
+    font-size: 1rem !important;
+}
+
+.avatar-md {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.avatar {
+    display: inline-block;
+    height: 8rem;
+    position: relative;
+    width: 8rem;
+}
+
+.rounded-3 {
+    border-radius: var(--bs-border-radius-lg) !important;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.text-card {
+    /* max-height: 12em; */
+    min-height: 12em;
+    /* overflow: auto; */
+}
+
+svg.quoteLeft {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 150px;
+}
+
+svg.quoteRight {
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 10px;
+}
+
+.testimonialDescription {
+    position: absolute;
+    margin-left: 21px !important;
+    margin-top: 10px !important;
+}
+
+.testimonialDescription{
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+}
+
+.testimonialContentWidth{
+    width: 80%;
+}
+@media (max-width: 480px) {
+    .overflowP{
+        max-width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .testimonialContentWidth{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1630px) {
+    svg.quoteLeft {
+        position: absolute;
+        margin-top: -38px;
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 1490px) {
+    svg.quoteLeft {
+        position: absolute;
+        margin-top: -38px;
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 940px) {
+    svg.quoteLeft {
+        position: absolute;
+        margin-top: -38px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 690px) {
+    svg.quoteLeft {
+        position: absolute;
+        margin-top: -38px;
+        margin-left: 0px;
+    }
+}
+
+.author-img {
+	border-radius: 100%;
+}
+.font-medium {
+	font-weight: 500;
+}
+.border-radius-new {
+	border-radius: 20px;
+}
+img.comms {
+	width: 20px !important;
+	height: auto;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.overflowP{
+    max-width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

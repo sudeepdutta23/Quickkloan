@@ -1,0 +1,6 @@
+.backgr{
+    /* background-image: url("images/login/blueBackground.jpg"); */
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+}

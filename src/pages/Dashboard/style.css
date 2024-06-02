@@ -1,0 +1,7 @@
+.ant-menu-item, .ant-menu-item-disabled, .ant-menu-light {
+  color: #fff !important;
+}
+
+.ant-menu-item-selected {
+    color: black !important;
+}

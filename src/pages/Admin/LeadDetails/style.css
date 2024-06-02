@@ -1,0 +1,40 @@
+.leadCard{
+    max-width: 60%;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1215px) {
+    .leadCard{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 941px) {
+    .leadCard{
+        max-width: 100%;
+    }
+    .cardText{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .avatarSmallUserCard{
+        width: 80%;
+    }
+}
+
+.comment-section{
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px){
+    .comment-section{
+        width: 50%;
+    }
+}

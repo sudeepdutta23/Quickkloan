@@ -1,0 +1,49 @@
+.pt-8 {
+    padding-top: 3.5rem !important;
+}
+
+.my-6 {
+    margin-bottom: 2.5rem !important;
+    margin-top: 2.5rem !important;
+}
+
+.opacity-25 {
+    opacity: .25 !important;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid;
+    color: #e9ecef;
+    margin: 1rem 0;
+    opacity: 1;
+}
+
+.text-white-50 {
+    --bs-text-opacity: 1;
+    color: hsla(0, 0%, 100%, .5) !important;
+}
+
+.mt-6 {
+    margin-top: 2.5rem !important;
+}
+
+.ms-3 {
+    margin-left: 1rem !important;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: #624bff !important;
+}
+
+a.linkClass {
+    color: rgb(98, 75, 255);
+}
+
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+.applicationName{
+    font-size: 10px;
+}
+
+.bg-gray{
+    background-color: #dddddd;
+}
+
+.borderTp{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.borderBtm{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.prev{
+    padding: 10px 30px 10px 30px !important;
+    border-radius: 20px !important;
+}
+
+.next{
+    padding: 10px 30px 10px 30px !important;
+    border-radius: 20px !important;
+}
+
+.brb{
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.brt{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.marginR{
+    margin-right: 8px;
+}
+
+.mw-50{
+    max-width: 60%;
+}
+
+@media (max-width: 1000px){
+    .mw-50{
+        max-width: 100%;
+    }
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.input-file{
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+   width: 1%;
+}
+
+.ml-header{
+    margin-left: 35px;
+}
+
+.tipForCosigner {
+    position: absolute;
+    margin-top: 54px;
+    font-size: 10px;
+    margin-left: -178px;
+    border: 1px solid #dfdfdf;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.tipForCosignerMobile{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 140px;
+}
+/* @media (max-width: 1046){
+.tipForCosigner{
+    display: none !important;
+}
+} */
+
+@media only screen and (max-width: 1046px) {
+    .tipForCosigner{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1046px) {
+    .tipForCosignerMobile{
+        display: none !important;
+    }
+}

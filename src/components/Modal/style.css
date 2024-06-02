@@ -1,0 +1,30 @@
+.modalFixedBg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    background-color: rgba(0,0,0,.6);
+    z-index: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalContainer{
+    min-width: 400px;
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 90vh;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.modalClose{
+    position: absolute;
+    color: #fff;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}

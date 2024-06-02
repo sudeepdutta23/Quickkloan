@@ -1,0 +1,16 @@
+.pt-18 {
+    padding-top: 8.5rem!important;
+}
+
+.pb-10 {
+    padding-bottom: 4.5rem!important;
+}
+
+p.text{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-us-div a{
+    color: #1f9514;
+}

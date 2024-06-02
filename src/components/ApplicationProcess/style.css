@@ -1,0 +1,54 @@
+.mb-6 {
+    margin-bottom: 2.5rem!important;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.mt-n4 {
+    margin-top: -1.5rem!important;
+}
+
+.mx-auto {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.icon-shape {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-lg {
+    height: 3rem;
+    line-height: 3rem;
+    width: 3rem;
+}
+
+.p-6 {
+    padding: 2.5rem!important;
+}
+
+h3 {
+    font-weight: 700;
+    letter-spacing: -.5px;
+    font-size: 1.25rem;
+}
+
+.py-lg-16 {
+    padding-bottom: 7.5rem!important;
+    padding-top: 7.5rem!important;
+}
+
+.py-10 {
+    padding-bottom: 1.8rem!important;
+    padding-top: 1.8rem!important;
+}
+
+.text-primary{
+    color: #624bff!important;
+}

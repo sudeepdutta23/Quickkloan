@@ -1,0 +1,70 @@
+export { getAbout, addUpdateAbout, deleteAbout, postMail } from "./About";
+export { getBlogList, getBlogListById, addUpdateBlogList } from "./Admin";
+export {
+  login,
+  signUp,
+  verifyOtp,
+  logout,
+  adminCreateLead,
+  adminOtp,
+  resendOtp,
+} from "./Auth";
+export { getBannerImages } from "./Carousel";
+export { getFeatureList } from "./Feature";
+export {
+  createLead,
+  saveForm,
+  deleteCosigner,
+  getOngoingCompleted,
+  getLeadRecords,
+  getFilterLeads,
+  downloadAllFile,
+  downloadExcelLeadsReport,
+  getLeadComments,
+  setLeadComments,
+} from "./Individual";
+export { getStatus, updateStatus, updateStep } from "./LeadStatus";
+export {
+  getServices,
+  getServiceById,
+  addUpdateServices,
+  deleteServices,
+} from "./LoanServices";
+export {
+  getCountries,
+  addCountries,
+  editCountries,
+  deleteCountries,
+  getStates,
+  addStates,
+  editStates,
+  deleteStates,
+  getCity,
+  addCity,
+  editCity,
+  deleteCity,
+  getEmployementStatus,
+  addEmployementStatus,
+  editEmployementStatus,
+  deleteEmployementStatus,
+  getLoanType,
+  addLoanType,
+  editLoanType,
+  deleteLoanType,
+  getCourses,
+  addCourses,
+  editCourses,
+  deleteCourses,
+  getTestimonials,
+  addTestimonials,
+  editTestimonials,
+  deleteTestimonials,
+  getDocuments,
+  addDocuments,
+  editDocuments,
+  deleteDocuments,
+  getAllRelationship,
+  addRelationship,
+  editRelationship,
+  deleteRelationship,
+} from "./Master";

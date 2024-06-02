@@ -1,0 +1,46 @@
+.navbar-default {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(3,0,71,.09);
+}
+
+.rightSignupBtb{
+    display: block;
+}
+
+.leftSignupBtb{
+    display: none;
+}
+
+@media screen and (min-width: 992){
+    .rightSignupBtb{
+        display: none;
+    }
+    .leftSignupBtb{
+        display: block;
+    }
+}
+
+.headerLogo{
+    max-width: 100%;
+}
+
+@media (min-width: 991){
+    .navContainer{
+        display: flex !important;
+        flex-direction: row-reverse !important;
+    }
+}
+
+.drawerList > span {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.sidebarClose{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    font-size: 30px;
+    /* border: 2px solid black; */
+    border-radius: 14px;
+}
